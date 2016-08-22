@@ -1,0 +1,12 @@
+<ui:composition xmlns:ui='http://xmlns.jcp.org/jsf/facelets'
+	xmlns:h='http://xmlns.jcp.org/jsf/html'
+	template='/WEB-INF/resources/template/template.xhtml'>
+	<ui:define name="title">Title from dynamic</ui:define>
+	<ui:define name="content">
+		<p>Hello from a dynamic include!</p>
+		<p>The below should render as a real input field:</p>
+		<p>
+			<h:inputText />
+		</p>
+	</ui:define>
+</ui:composition>
